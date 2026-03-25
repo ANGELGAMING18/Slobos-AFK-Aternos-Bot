@@ -1,12 +1,12 @@
 {
   "name": "AFK Bot",
   "bot-account": {
-    "username": "Slobot00",
+    "username": "BEAN",
     "password": "",
     "type": "offline"
   },
   "server": {
-    "ip": "alekssmith-LPs7.aternos.me",
+    "ip": "beanmasterSMP.aternos.me",
     "port": 64898,
     "version": "",
     "try-creative": false
