@@ -1,7 +1,7 @@
 {
   "name": "AFK Bot",
   "bot-account": {
-    "username": "67geezea",
+    "username": "BEAN",
     "password": "",
     "type": "online"
   },
@@ -37,7 +37,7 @@
       ]
     },
     "chat-log": true,
-    "auto-reconnect": false,      // Prevents auto-reconnect after disconnection, bot stays logged in
+    "auto-reconnect": false,
     "auto-reconnect-delay": 2000,
     "max-reconnect-delay": 120000
   },
@@ -46,15 +46,15 @@
     "circle-walk": {
       "enabled": true,
       "radius": 4,
-      "speed": 3000           // Ensures continuous movement to keep the bot from being marked AFK
+      "speed": 3000
     },
     "look-around": {
       "enabled": true,
-      "interval": 5000        // Keeps the bot active by rotating its view
+      "interval": 5000
     },
     "random-jump": {
       "enabled": true,
-      "interval": 10000       // Makes the bot jump randomly to avoid idle detection
+      "interval": 10000
     }
   },
   "modules": {
