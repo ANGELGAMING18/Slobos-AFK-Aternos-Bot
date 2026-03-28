@@ -31,13 +31,13 @@
       "repeat": true,
       "repeat-delay": 120,
       "messages": [
-        "I'm a regular player",
-        "Subscribe to Slobos!",
+        "Sub to ccaattet",
+        "Play theno1smp.minekeep.gg!",
         "I like to play Minecraft!"
       ]
     },
     "chat-log": true,
-    "auto-reconnect": true,
+    "auto-reconnect": false,      // Prevents auto-reconnect after disconnection, bot stays logged in
     "auto-reconnect-delay": 2000,
     "max-reconnect-delay": 120000
   },
@@ -46,15 +46,15 @@
     "circle-walk": {
       "enabled": true,
       "radius": 4,
-      "speed": 3000
+      "speed": 3000           // Ensures continuous movement to keep the bot from being marked AFK
     },
     "look-around": {
       "enabled": true,
-      "interval": 5000
+      "interval": 5000        // Keeps the bot active by rotating its view
     },
     "random-jump": {
       "enabled": true,
-      "interval": 10000
+      "interval": 10000       // Makes the bot jump randomly to avoid idle detection
     }
   },
   "modules": {
